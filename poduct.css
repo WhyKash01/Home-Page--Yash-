@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px 0px 50px;
+}
+.row{
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.p1>img{
+    cursor: pointer;
+}
+.price s{
+    margin: 0px 40px 0px 0px;
+    color: #000;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price h4{
+    color: green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price h2{
+    color: #000;
+    margin: 0px 40px 0px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 10px 0px 10px 0px;
+    
+}
+.p1 #name{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}
+
+h2{
+    cursor: pointer;
+}
+.bef{
+    
+    background-color: #000;
+    color: #cc0000;
+    text-align: center;
+    margin-top: -108px;
+    margin-bottom: 40px;
+    padding: 30px 0px ;
+    
+    font-family: 'Montserrat';
+    z-index: 99;
+}
+.pdt{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    margin-top: -95px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
