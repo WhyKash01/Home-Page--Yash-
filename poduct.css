@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Cinzel:wght@400;600;700;800;900&display=swap');
 .price{
     display: flex;
     flex-direction: row;
@@ -40,7 +41,9 @@
 .p1 #name{
     margin-top: 20px;
     margin-bottom: -10px;
-    font-family: 'Montserrat';
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    /* font-family: 'Montserrat'; */
     text-align: center;
     color: #000;
     cursor: pointer;
@@ -57,8 +60,9 @@ h2{
     margin-top: -108px;
     margin-bottom: 40px;
     padding: 30px 0px ;
-    
-    font-family: 'Montserrat';
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    /* font-family: 'Montserrat'; */
     z-index: 99;
 }
 .pdt{

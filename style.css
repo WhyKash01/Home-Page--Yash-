@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Cinzel:wght@400;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     outline: 0;
 }
 nav{
-    font-family: 'Montserrat';
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    /* font-family: 'Montserrat'; */
     font-weight: 800;
     background-color: #000;
     color: #fff;
@@ -74,14 +77,14 @@ nav{
 .menuItem:hover .dropDown{
     display: block;
     position: absolute;
-    left: 21%;
+    left: 19%;
     top: 16.4%;
     cursor:auto;
 }
 .menuItem:hover .dropDown1{
     display: block;
     position: absolute;
-    left: 30%;
+    left: 28.5%;
     top: 16.4%;
     cursor:auto;
 }
@@ -89,7 +92,7 @@ nav{
 .menuItem:hover .dropDown2{
     display: block;
     position: absolute;
-    left: 43%;
+    left: 42%;
     top: 16.4%;
     cursor:auto;
 }
