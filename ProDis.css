@@ -26,6 +26,7 @@ nav{
     right: 0px;
     left: 0px;
     width: 100%;
+    box-shadow: #cc0000 0px 0px 70px;
 }
 
 .logo>img{
@@ -321,26 +322,26 @@ ul li{
     display: flex;
     margin: 10px 10px;
     position: relative;
-    top: 170px;
+    top: 180px;
     
     
 }
-.price s{
+.prices s{
     margin: 0px 40px 0px 0px;
-    
+    color: #fff;
     cursor: pointer;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.price h4{
+.prices h4{
     color: green;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.price h2{
+.prices h2{
     color: #fff;
     margin: 0px 40px 0px 0px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.price{
+.prices{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -371,11 +372,13 @@ ul li{
 }
 .warr img{
     width: 100px;
+    margin-top: 14px;
     margin-left: -10px;
 } 
 .txt{
     margin-right: 10px;
     margin-top: 18px;
+    color: #fff;
 }
 .avOff{
     margin: 10px 0px;
