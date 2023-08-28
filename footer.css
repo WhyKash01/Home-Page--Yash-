@@ -9,16 +9,23 @@ footer{
     color: #fff;
     box-shadow: #cc0000 0px 0px 70px;
 }
-.pdt h1{
+.pdt1 h1{
     color: #fff;
     margin-top: -20px;
     text-align: center;
-    
+    cursor: pointer;
     margin-bottom: 20px;
 }
-
-body .pdt{
-    margin-top: 1960px;
+.pdt1{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    margin-top: -95px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+body .pdt1{
+    margin-top: 2030px;
     z-index: 99;
     
     box-shadow: #cc0000 0px 0px 70px;
@@ -29,7 +36,7 @@ body .pdt{
 
 }
 .lo img{
-    
+    cursor: pointer;
     width: 150px;
 }
 footer h2{
@@ -50,6 +57,7 @@ footer h3{
 }
 .about h3{
     margin: 10px 0px;
+    cursor: pointer;
 }
 .contact{
     display: flex;
@@ -71,9 +79,10 @@ footer h3{
     border-radius: 5px;
     margin-right: 10px;
     height: 15px;
+
 }
 .social{
     display: flex;
     margin: 10px 0px;
-    
+    cursor: pointer;
 }

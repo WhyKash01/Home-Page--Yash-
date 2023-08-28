@@ -234,7 +234,9 @@ ul li{
 .ImgSlide>img{
     width: 70px;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 .left{
     position: fixed;
     width: 40%;
@@ -242,7 +244,9 @@ ul li{
 }
 
 .btn{
+    margin-left: 100px;
     display: flex;
+    cursor: pointer;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -252,9 +256,12 @@ ul li{
     
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
-
+.specs h1{
+    cursor: pointer;
+}
 .specs h2{
     padding: 20px 0px;
+    cursor: pointer;
 }
 .spec{
     display: flex;
@@ -263,6 +270,7 @@ ul li{
 }
 .spec h4{
     color: #fff;
+    cursor: pointer;
 }
 .second{
     margin-left: 30%;
@@ -270,32 +278,27 @@ ul li{
 }
 .butt{
     text-align: center;
-    background-color: #ffbf01;
-    padding: 20px 0px;
-    width: 230px;   
-    border-style:solid;
-    border-width: 1.5px;
-    border-color: #000000;
+    background-color: #cc0000;
+    padding: 15px 0px;
+    width: 190px;   
     border-radius: 3px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 .butt1{
     text-align: center;
-    background-color: #ff8801;
-    padding: 20px 0px;
+    background-color: #cc0000;
+    padding: 15px 0px;
     border-radius: 3px;
-    width: 230px;   
-    border-style:solid;
-    border-width: 1.5px;
-    border-color: #000000;
+    width: 190px;   
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 .proImg{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     
     justify-content: center;
-    
+    margin-top: 10px;
     border-radius: 3px;
     margin-bottom: 10px;
 }
@@ -368,6 +371,7 @@ ul li{
     margin: 10px 0px;
 }
 .warr img{
+    cursor: pointer;
     width: 100px;
     margin-top: 14px;
     margin-left: -10px;
@@ -376,6 +380,7 @@ ul li{
     margin-right: 10px;
     margin-top: 18px;
     color: #fff;
+    cursor: pointer;
 }
 .avOff{
     margin: 10px 0px;
@@ -399,12 +404,14 @@ ul li{
 .coupon{
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 body{
     background-color: #000;
     color: #fff;
 }
 .fetch{
+    background-image: url(./gamers-galaxy-logo-zip-file/png/360_F_275064226_KRhldT5VTVHb5QoyzOJvqFSXZWt8FxOQ.jpg);
     display: flex;
     flex-direction: row;
     margin-top: 3px;
@@ -414,12 +421,20 @@ body{
     border-radius: 3px;
 }
 .fetch .img1{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
     width: 250px;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
 }
 .fetch .img2{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
     width: 250px;
-    margin: 0px 30px 0px 0px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
 }
 .proDes{
     display: flex;
@@ -428,7 +443,7 @@ body{
     padding: 20px 0px;
 }
 .proDes h1{
-    padding: 0px 0px 20px 15px;
+    padding: 0px 0px 20px 0px;
     
     /* border-style:groove;
     border-radius: 3px; */
@@ -436,10 +451,15 @@ body{
 }
 .feTxt{
     display: flex;
+    background-color: rgb(0, 0, 0,0.4);
+    padding:10px 20px;
+    
+    border-radius: 5px;
     flex-direction: column;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .fetch h4{
+    color: #fff;
     font-size: 16px;
     text-align:left;
     margin-top: 20px;
@@ -447,5 +467,5 @@ body{
 }
 .feTxt h2{
     font-size: 25px;
-    color: #000;
+    color: #fff;
 }
