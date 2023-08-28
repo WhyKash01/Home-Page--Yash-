@@ -13,9 +13,11 @@
     padding: 20px 20px;
     border-radius: 10px;
 }
-.p1>img{
+.p1 img{
     cursor: pointer;
+    
 }
+
 .price s{
     margin: 0px 40px 0px 0px;
     color: #000;
@@ -47,6 +49,7 @@
     text-align: center;
     color: #000;
     cursor: pointer;
+    
 }
 
 h2{

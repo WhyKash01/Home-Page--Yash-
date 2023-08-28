@@ -15,25 +15,6 @@ function showSlide(slideIndex) {
   slides[slideIndex].style.display = 'block';
   currentSlide = slideIndex;
 }
-// function showSlide(slideIndex) {
-//     if (slideIndex < 0) {
-//       slideIndex = slides.length - 1;
-//     } else if (slideIndex >= slides.length) {
-//       slideIndex = 0;
-//     }
-  
-//     slides.forEach((slide, index) => {
-//       if (index === slideIndex) {
-//         slide.style.transform = 'translateX(0)';
-//       } else if (index < slideIndex) {
-//         slide.style.transform = 'translateX(-100%)';
-//       } else {
-//         slide.style.transform = 'translateX(100%)';
-//       }
-//     });
-  
-//     currentSlide = slideIndex;
-//   }
 function nextSlide() {
   showSlide(currentSlide + 1);
 }
