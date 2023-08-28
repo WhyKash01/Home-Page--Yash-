@@ -18,7 +18,7 @@ footer{
 }
 
 body .pdt{
-    margin-top: 2000px;
+    margin-top: 1960px;
     z-index: 99;
     
     box-shadow: #cc0000 0px 0px 70px;
@@ -57,20 +57,20 @@ footer h3{
     
 }
 .follow img{
-    width: 20px;
+    width: 15px;
     background-color: #fff;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 3px;
+    border-radius: 5px;
     margin-right: 10px;
-    height: 20px;
+    height: 15px;
 }
 .contact img{
-    width: 20px;
+    width: 15px;
     background-color: #fff;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 3px;
+    border-radius: 5px;
     margin-right: 10px;
-    height: 20px;
+    height: 15px;
 }
 .social{
     display: flex;

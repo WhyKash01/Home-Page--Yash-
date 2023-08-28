@@ -233,9 +233,6 @@ ul li{
 }
 .ImgSlide>img{
     width: 70px;
-    border-style:solid;
-    border-width: 1px;
-    border-color: #272727;
     border-radius: 5px;
 }
 .left{
@@ -312,8 +309,8 @@ ul li{
 .MainImg>img{
     padding: 20px 10px;
     border-style:solid;
-    border-width: 1px;
-    border-color: #272727;
+    /* border-width: 2px;
+    border-color: #5d2d2d; */
     background-color: #fff;
     border-radius: 5px;
 }
@@ -401,7 +398,7 @@ ul li{
 }
 .coupon{
     width: 20px;
-    
+    height: 20px;
 }
 body{
     background-color: #000;
@@ -413,7 +410,7 @@ body{
     margin-top: 3px;
     background-color: #fff;
     padding: 20px 20px;
-    border-style:groove;
+    
     border-radius: 3px;
 }
 .fetch .img1{
@@ -450,4 +447,5 @@ body{
 }
 .feTxt h2{
     font-size: 25px;
+    color: #000;
 }
